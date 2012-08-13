@@ -1,0 +1,2 @@
+Desenvolvimento de um programa que encontra ciclos em grafos.<br>
+Fizemos também como extra uma interface gráfica que permite a entrada de um grafo desenhando ele na tela. No zip está um binário pra Windows com a DLL da biblioteca gráfica (Allegro), mas funciona perfeitamente no Wine.

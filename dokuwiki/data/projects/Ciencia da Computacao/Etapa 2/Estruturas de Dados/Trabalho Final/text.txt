@@ -1,0 +1,5 @@
+Este trabalho envolvia:<br>
+<ul><li>tratamento de xml: leitura do banco de dados de artigos</li>
+<li>estruturas de dados: armazenamento em memória do banco de dados</li>
+<li>técnicas de busca dinâmica: pesquisa é feita enquanto a entrada está sendo feita</li>
+<li>interface gráfica: escolhemos fazer em console porque achamos mais divertido</li></ul>

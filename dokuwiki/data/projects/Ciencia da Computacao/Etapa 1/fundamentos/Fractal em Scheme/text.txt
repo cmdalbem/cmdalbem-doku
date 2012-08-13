@@ -1,0 +1,2 @@
+Example of code using Scheme to demonstrate principles of drawing fractals. There are plently of constants that can be varied to archieve different results. Screenshot represents about 2 minutes of execution.<br>
+Algorithm idea taken from <i>Chaos: Making a New Science</i> book by James Gleick.

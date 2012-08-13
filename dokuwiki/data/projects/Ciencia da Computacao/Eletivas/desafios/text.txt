@@ -1,0 +1,2 @@
+Professor: João Luiz Dihl Comba<br>
+Minhas resoluções para alguns dos problemas feitos durante o semestre. Todos eles foram aceitos no UVa Onlinge Judge.

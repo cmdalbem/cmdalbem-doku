@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Cesar</name>
+<title>Validador de cartão de crédito</title>
+<text><![CDATA[Desenvolvimento de um programa em Assemlby para o simulador Cesar que identifica e valida um número de cartão de crédito. Pontos extras foram conferidos aos alunos que se preocupassem com uma interface amigável.]]></text>
+<image>cesar.png</image> 
+<downloads>
+<download>cesar.zip
+</download>
+<download>definicao.pdf</download>
+</downloads>
+</content>

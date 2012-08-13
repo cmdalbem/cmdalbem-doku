@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Final</name>
+<title></title>
+<text><![CDATA[Implementação da linguagem L2 em Scala (Operacional e Sistema de Tipos).]]></text>
+<image></image> 
+<downloads>
+<download>enunciado.pdf
+</download>
+<download>Main.scala</download>
+</downloads>
+</content>

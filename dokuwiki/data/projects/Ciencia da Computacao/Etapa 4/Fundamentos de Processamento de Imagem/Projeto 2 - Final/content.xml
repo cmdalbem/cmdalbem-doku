@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Projeto 2 - Final</name>
+<title></title>
+<text><![CDATA[Implementação de um programa que reconhece padrões de uma imagem gerada sinteticamente e capturada por uma webcam. Os padrões são: símbolos, letras, números, textura, código de barras e um relógio analógico.]]></text>
+<image>fpi_amostra.jpg
+</image> 
+<downloads>
+<download>enunciado.pdf</download>
+</downloads>
+</content>

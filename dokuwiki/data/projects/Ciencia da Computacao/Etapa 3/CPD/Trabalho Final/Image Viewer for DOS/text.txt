@@ -1,0 +1,2 @@
+Visualizador de imagens para DOS em modo texto.<br>
+Setas do teclado movimentam a posição do visualizador e z/x controlam o zoom.

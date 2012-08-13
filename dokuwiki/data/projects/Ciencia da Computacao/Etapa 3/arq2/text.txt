@@ -1,0 +1,2 @@
+Professor: Raul Fernando Weber<br>
+Os trabalhos dessa disciplina envolvem benchmarks a serem feitos na própria máquina do aluno, mas talvez isto aqui seja útil pra alguém.

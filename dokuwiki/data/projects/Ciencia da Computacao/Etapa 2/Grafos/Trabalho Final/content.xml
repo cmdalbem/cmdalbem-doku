@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Final</name>
+<title>Detector de ciclos de um grafo</title>
+<text><![CDATA[Desenvolvimento de um programa que encontra ciclos em grafos.<br>
+Fizemos também como extra uma interface gráfica que permite a entrada de um grafo desenhando ele na tela. No zip está um binário pra Windows com a DLL da biblioteca gráfica (Allegro), mas funciona perfeitamente no Wine.
+]]></text>
+<image>grafos_final.png</image> 
+<downloads>
+<download>trabalhoFinalGrafos.zip</download>
+</downloads>
+</content>

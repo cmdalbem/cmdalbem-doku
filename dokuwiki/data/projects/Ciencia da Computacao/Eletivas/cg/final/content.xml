@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Projeto Final - Simulação de Depth of Field em OpenGL</name>
+<title></title>
+<text><![CDATA[Meu projeto consiste na simulação de efeitos de campo de profundidade (depth of field) de lentes reais em OpenGL.<br>
+O filtro, encapsulado na classe DofFilter, é altamente portável, tanto que a apresentação (disponível em pdf abaixo) demonstra exemplos do filtro na Close2GL e no meu jogo de sinuca SiNoS, desenvolvido na disciplina de Fundamentos de Computação Gráfica.<br>
+<br>
+Este trabalho foi feito em conjunto com o Projeto Final da disciplina de Fotografia Computacional. De fato, em Fotografia, eu estendi o filtro para suportar a personalização do formato do diafragma, o qual é carregado por uma simples imagem (jpeg, por exemplo), além de um estudo sobre bokehs para a implementação da feature Bokeh Boost do DofFilter.<br>
+<br>
+<ul>
+<li><a href="http://code.google.com/p/opengl-dof-filter">Google Code Repository</a></li>
+</ul>
+]]></text>
+<image>cg_dof1.jpg</image> 
+<downloads>
+<download>apresentacao.pdf</download>
+</downloads>
+</content>

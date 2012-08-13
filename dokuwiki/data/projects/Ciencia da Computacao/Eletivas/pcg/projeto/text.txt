@@ -1,0 +1,7 @@
+MusA é um jogo musical baseado num sistema estilo GuitarHero, mas com elementos de RPG e jogos de luta. São agregados conceitos consagrados destes estilo como HP/MP, magias, equipamentos, levels, assim como combos disparados por sequências de teclas.<br>
+É um jogo que desafia o jogador ao misturar elementos de jogos altamente dinâmicos, que requerem velocidade e coordenação motora, com jogos onde a inteligência e as táticas são grandes diferenciais.<br>
+<br>
+<ul>
+<li><a href="http://code.google.com/p/musical-arena/">Google Code Repository</a></li>
+<li><a href="https://wiki.inf.ufrgs.br/mediawiki/index.php/INF01019_Video_Games_Festival">Wiki colaborativa dos jogos da disciplina</a></li>
+</ul>

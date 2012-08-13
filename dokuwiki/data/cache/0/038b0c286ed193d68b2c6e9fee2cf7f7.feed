@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- generator="FeedCreator 1.7.2-ppt DokuWiki" -->
+<?xml-stylesheet href="http://localhost:8081/~cmdalbem/dokuwiki/lib/exe/css.php?s=feed" type="text/css"?>
+<rdf:RDF
+    xmlns="http://purl.org/rss/1.0/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/feed.php">
+        <title>~cmdalbem</title>
+        <description></description>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/</link>
+        <image rdf:resource="http://localhost:8081/~cmdalbem/dokuwiki/lib/tpl/mmclean/images/favicon.ico" />
+       <dc:date>2012-08-06T13:39:25-03:00</dc:date>
+        <items>
+            <rdf:Seq>
+                <rdf:li rdf:resource="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=projects_courses&amp;rev=1343899154&amp;do=diff"/>
+                <rdf:li rdf:resource="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=playground:playground&amp;rev=1343897017&amp;do=diff"/>
+                <rdf:li rdf:resource="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=en:home&amp;rev=1343896739&amp;do=diff"/>
+                <rdf:li rdf:resource="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=home&amp;rev=1343692296&amp;do=diff"/>
+                <rdf:li rdf:resource="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=pt-br:home&amp;rev=1343687280&amp;do=diff"/>
+                <rdf:li rdf:resource="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=menu1&amp;rev=1343680101&amp;do=diff"/>
+                <rdf:li rdf:resource="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=projects_disciplines&amp;rev=1343628677&amp;do=diff"/>
+            </rdf:Seq>
+        </items>
+    </channel>
+    <image rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/lib/tpl/mmclean/images/favicon.ico">
+        <title>~cmdalbem</title>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/</link>
+        <url>http://localhost:8081/~cmdalbem/dokuwiki/lib/tpl/mmclean/images/favicon.ico</url>
+    </image>
+    <item rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=projects_courses&amp;rev=1343899154&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-08-02T06:19:14-03:00</dc:date>
+        <dc:creator>cmdalbem</dc:creator>
+        <title>projects_courses</title>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=projects_courses&amp;rev=1343899154&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=playground:playground&amp;rev=1343897017&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-08-02T05:43:37-03:00</dc:date>
+        <dc:creator>cmdalbem</dc:creator>
+        <title>playground:playground</title>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=playground:playground&amp;rev=1343897017&amp;do=diff</link>
+        <description></description>
+    </item>
+    <item rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=en:home&amp;rev=1343896739&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-08-02T05:38:59-03:00</dc:date>
+        <dc:creator>cmdalbem</dc:creator>
+        <title>en:home - [Home] </title>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=en:home&amp;rev=1343896739&amp;do=diff</link>
+        <description>About
+
+
+[ ]Cristiano Medeiros Dalbem
+
+
+
+
+
+
+
+
+
+
+
+
+On this website you'll find a selection of my best works and projects done during my academic life studying Computer Science at UFRGS (Universidade Federal do Rio Grande do Sul). I've been there since 2008 and I'm still getting surprised every day by how vast, diverse and interesting the world of information technology is.
+
+You can also check my updated Curriculum Vitae and my Online Lattes CV.
+
+Unfortunately, for now, you'll find english translat…</description>
+    </item>
+    <item rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=home&amp;rev=1343692296&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-07-30T20:51:36-03:00</dc:date>
+        <dc:creator>cmdalbem</dc:creator>
+        <title>home</title>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=home&amp;rev=1343692296&amp;do=diff</link>
+        <description>About
+
+
+[ ]Cristiano Medeiros Dalbem
+
+
+
+
+
+
+
+
+
+
+
+
+On this website you'll find a selection of my best works and projects done during my academic life studying Computer Science at UFRGS (Universidade Federal do Rio Grande do Sul). I've been there since 2008 and I'm still getting surprised every day by how vast, diverse and interesting the world of information technology is.
+
+You can also check my updated Curriculum Vitae and my Online Lattes CV.
+
+Unfortunately, for now, you'll find english translat…</description>
+    </item>
+    <item rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=pt-br:home&amp;rev=1343687280&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-07-30T19:28:00-03:00</dc:date>
+        <dc:creator>cmdalbem</dc:creator>
+        <title>pt-br:home</title>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=pt-br:home&amp;rev=1343687280&amp;do=diff</link>
+        <description>Sobre mim
+
+
+[ ]Cristiano Medeiros Dalbem
+
+
+
+
+
+
+
+
+
+
+
+
+Nesta página encontrarás uma seleção dos meus melhores trabalhos e projetos feitos durante minha trajetória acadêmica cursando Ciência da Computação na UFRGS (Universidade Federal do Rio Grande do Sul). Estou estudando na universidade desde 2008 e continuo me supreendendo todo dia com quão vasto, diverso e interessante é o mundo da Computação e da Tecnologia da Informação.
+
+Também podes conferir meu Curriculum Vitae atualizado e meu Online Lat…</description>
+    </item>
+    <item rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=menu1&amp;rev=1343680101&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-07-30T17:28:21-03:00</dc:date>
+        <dc:creator>cmdalbem</dc:creator>
+        <title>menu1</title>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=menu1&amp;rev=1343680101&amp;do=diff</link>
+        <description>home projects &amp; courses elsewhere</description>
+    </item>
+    <item rdf:about="http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=projects_disciplines&amp;rev=1343628677&amp;do=diff">
+        <dc:format>text/html</dc:format>
+        <dc:date>2012-07-30T03:11:17-03:00</dc:date>
+        <dc:creator>cmdalbem</dc:creator>
+        <title>projects_disciplines</title>
+        <link>http://localhost:8081/~cmdalbem/dokuwiki/doku.php?id=projects_disciplines&amp;rev=1343628677&amp;do=diff</link>
+        <description></description>
+    </item>
+</rdf:RDF>

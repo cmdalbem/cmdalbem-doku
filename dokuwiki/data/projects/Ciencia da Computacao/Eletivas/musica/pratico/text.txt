@@ -1,0 +1,5 @@
+Meu projeto foi de criar um sintetizador de Realidade Aumentada baseado no ReacTable, mas utilizando tecnologia que você pode ter em casa! O sistema foi feito em PureData e com ajuda da biblioteca de visão computacional Reactivision.<br>
+<br>
+<ul>
+<li><a href="http://www.youtube.com/watch?v=6ITx6rHZJkk">Vídeo de demonstração no YouTube</a></li>
+</ul>

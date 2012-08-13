@@ -1,0 +1,1 @@
+Implementação da linguagem L2 em Scala (Operacional e Sistema de Tipos).

@@ -1,0 +1,1 @@
+Esta é uma versão extendida do trabalho de MLP sobre Pure Data. Aqui o enfoque é diferente, com análises menos criteriosas e mais exemplos de uso, comentários sobre os usos da linguagem e comparações com outras linguagens de programação visuais.

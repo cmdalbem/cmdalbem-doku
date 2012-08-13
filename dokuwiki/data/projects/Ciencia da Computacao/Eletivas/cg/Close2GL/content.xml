@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Close2GL</name>
+<title></title>
+<text><![CDATA[Nossa implementação de funcionalidades básicas da OpenGL desenvolvida durante toda disciplina.
+<br>
+<ul>
+<li><a href="http://ninjagl.googlecode.com">Código completo disponível em repositório Google Code</a></li>
+<li><a href="http://inf.ufrgs.br/~cmdalbem/dokuwiki/doku.php?id=playground:inf01009_03">Relatório Etapa 1</a></li>
+<li><a href="http://inf.ufrgs.br/~cmdalbem/dokuwiki/doku.php?id=playground:inf01009_04">Relatório Etapa 2</a></li>
+<li><a href="http://inf.ufrgs.br/~cmdalbem/dokuwiki/doku.php?id=playground:inf01009_05">Relatório Etapa 3</a></li>
+</ul>
+]]></text>
+<image>cg3.png</image> 
+<downloads>
+</downloads>
+</content>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Image Viewer for DOS</name>
+<title></title>
+<text><![CDATA[Visualizador de imagens para DOS em modo texto.<br>
+Setas do teclado movimentam a posição do visualizador e z/x controlam o zoom.]]></text>
+<image>cpd_final_viewer.jpg
+</image> 
+<downloads>
+<download>imageviewer.zip</download>
+</downloads>
+</content>

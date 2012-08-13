@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Final</name>
+<title>Arpejador</title>
+<text><![CDATA[Implementação de um Arpejador em Java atentando aos princípios estudados na disciplina.<br>
+Além das funcionalidades obrigatórias, pode-se criar/salvar/carregar uma playlist de acordes com diferentes configurações de tempo (um compositor de músicas).]]></text>
+<image>tcp_arpejador.png</image> 
+<downloads>
+<download>enunciado.pdf
+</download>
+<download>Projeto_Arpejador.jar
+</download>
+<download>source.zip</download>
+</downloads>
+</content>

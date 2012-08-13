@@ -1,0 +1,1 @@
+Este foi um trabalho de análise e descrição, segundo conceitos e abordagens de análise de linguagens de programação estudados em aula, de uma linguagem "diferente". No caso, fiz o trabalho sobre a linguagem de programação visual Pure Data, especializada em síntese de som.

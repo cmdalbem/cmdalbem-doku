@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Intel</name>
+<title>Jogo da Vida em console</title>
+<text><![CDATA[Desenvolvimento de um simulador do "Jogo da Vida" de John Conway utilizando Assembly para a família de processadores x86 da INTEL.]]></text>
+<image>intel.png</image> 
+<downloads>
+<download>intel.zip
+</download>
+<download>definicao.pdf</download>
+</downloads>
+</content>

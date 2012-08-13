@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Final</name>
+<title>Busca de Metadados na Biblioteca Digital Brasileira de Computação</title>
+<text><![CDATA[Este trabalho envolvia:<br>
+<ul><li>tratamento de xml: leitura do banco de dados de artigos</li>
+<li>estruturas de dados: armazenamento em memória do banco de dados</li>
+<li>técnicas de busca dinâmica: pesquisa é feita enquanto a entrada está sendo feita</li>
+<li>interface gráfica: escolhemos fazer em console porque achamos mais divertido</li></ul>]]></text>
+<image>ed_final2.png</image> 
+<downloads>
+<download>edTrabalhoFinal.zip
+</download>
+<download>definicao.pdf</download>
+</downloads>
+</content>

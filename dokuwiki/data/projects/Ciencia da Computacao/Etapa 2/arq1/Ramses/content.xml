@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Ramses</name>
+<title>Jogo da Vida</title>
+<text><![CDATA[Desenvolvimento do "Jogo da Vida" de John Conway em Assembly para o simulador Ramses.]]></text>
+<image></image> 
+<downloads>
+<download>ramses.zip
+</download>
+<download>definicao.pdf</download>
+</downloads>
+</content>

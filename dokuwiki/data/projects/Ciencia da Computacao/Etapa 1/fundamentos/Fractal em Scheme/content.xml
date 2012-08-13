@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Fractal em Scheme</name>
+<title></title>
+<text><![CDATA[Example of code using Scheme to demonstrate principles of drawing fractals. There are plently of constants that can be varied to archieve different results. Screenshot represents about 2 minutes of execution.<br>
+Algorithm idea taken from <i>Chaos: Making a New Science</i> book by James Gleick.]]></text>
+<image>fractal_scheme.png</image> 
+<downloads>
+<download>fractal.zip</download>
+</downloads>
+</content>

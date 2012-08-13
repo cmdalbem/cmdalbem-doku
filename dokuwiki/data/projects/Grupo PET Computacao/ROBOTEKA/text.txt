@@ -1,0 +1,2 @@
+A Educational Robotics project that takes place in Goiás since 2009.<br>
+<a href="http://inf.ufrgs.br/roboteka/" class="urlextern" rel="nofollow">http://inf.ufrgs.br/roboteka</a>

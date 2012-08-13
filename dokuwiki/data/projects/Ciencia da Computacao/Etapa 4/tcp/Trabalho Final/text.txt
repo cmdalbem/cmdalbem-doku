@@ -1,0 +1,2 @@
+Implementação de um Arpejador em Java atentando aos princípios estudados na disciplina.<br>
+Além das funcionalidades obrigatórias, pode-se criar/salvar/carregar uma playlist de acordes com diferentes configurações de tempo (um compositor de músicas).

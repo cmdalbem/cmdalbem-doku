@@ -1,0 +1,40 @@
+====== projects ======
+\\
+<html>
+ 
+  <p> 
+  <a href="#" class="open">Expand all</a> / 
+  <a href="#" class="close">Collapse all</a>
+  </p>
+ 
+</html>  
+
+<php> 
+include("/home/grad/cmdalbem/public_html/dokuwiki/lib/utils.php");
+listProjects(); 
+</php>
+ 
+<html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+<script>	
+var $j = jQuery.noConflict();
+
+    $j('a.open').click(function(){
+      $j('li').children('div').slideDown('10')
+      .parent().removeClass('closed').addClass('open');
+      return false; 
+    });
+
+    $j('a.close').click(function(){
+      $j('li').children('div').slideUp('10')
+      .parent().removeClass('open').addClass('closed');
+      return false;
+    });
+	  
+    $j('li a.expand').click(function(){
+      $j(this).next().slideToggle('100')
+      .parent().toggleClass('open').toggleClass('closed');
+      return false;
+    });
+</script>
+</html>

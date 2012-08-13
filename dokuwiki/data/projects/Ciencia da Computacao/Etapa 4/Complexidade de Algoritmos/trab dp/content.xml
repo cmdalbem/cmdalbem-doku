@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Programação Dinâmica</name>
+<title></title>
+<text><![CDATA[Resolução e apresentação de análise de solução do problema <a href="http://icpcres.ecs.baylor.edu/onlinejudge/external/104/10465.html">10465 - Homer Simpson do UVa Online Judge</a>.<br>
+Acho que essa foi a apresentação de powerpoint mais legal que já fiz hehe.
+]]></text>
+<image>complexidade.png</image> 
+<downloads>
+<download>apresentacao.pdf
+</download>
+<download>homer.cpp</download>
+</downloads>
+</content>

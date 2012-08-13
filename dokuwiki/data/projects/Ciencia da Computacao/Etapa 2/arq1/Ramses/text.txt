@@ -1,0 +1,1 @@
+Desenvolvimento do "Jogo da Vida" de John Conway em Assembly para o simulador Ramses.

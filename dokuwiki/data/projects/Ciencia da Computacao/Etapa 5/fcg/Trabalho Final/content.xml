@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Final</name>
+<title>SiNoS
+</title>
+<text><![CDATA[SiNoS is Not Sinuca, SiNoS is Not Snooker, SiNoS is Not SiNoS<br>
+Faça o download no link abaixo:<br>
+<br>
+<ul>
+<li><a href="http://sinos.googlecode.com" class="urlextern" rel="nofollow">Google Code</a></li>
+</ul>
+]]></text>
+<image>sinos.jpg
+</image> 
+<downloads>
+<download>enunciado.pdf</download>
+</downloads>
+</content>

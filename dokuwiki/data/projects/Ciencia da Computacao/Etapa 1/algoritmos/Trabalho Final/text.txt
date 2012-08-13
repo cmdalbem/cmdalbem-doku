@@ -1,0 +1,2 @@
+Trata-se de uma simulação de um sistema simplificado de controle aéreo. O usuário deve fazer o roteamento de uma lista de aeronaves para as respectivas pistas, seguindo algumas regras.<br>
+A interface foi feita diretamente com windows.h, ou seja, sem bibliotecas de GUI. Não foi a decisão mas inteligente da minha vida, mas foi desafiador.

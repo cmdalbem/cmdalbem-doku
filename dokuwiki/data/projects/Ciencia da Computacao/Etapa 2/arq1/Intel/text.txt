@@ -1,0 +1,1 @@
+Desenvolvimento de um simulador do "Jogo da Vida" de John Conway utilizando Assembly para a família de processadores x86 da INTEL.

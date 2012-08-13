@@ -1,0 +1,1 @@
+Implementação de um programa que reconhece padrões de uma imagem gerada sinteticamente e capturada por uma webcam. Os padrões são: símbolos, letras, números, textura, código de barras e um relógio analógico.

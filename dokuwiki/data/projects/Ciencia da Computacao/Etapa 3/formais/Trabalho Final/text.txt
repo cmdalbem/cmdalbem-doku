@@ -1,0 +1,2 @@
+Leitura de gramáticas em FNC e implementação de algoritmos de reconhecimento. É impressa a árvore de derivação se a frase for parseada corretamente.<br>
+Exemplo de frase que pode ser parseada com a gramática incluída no .zip: <i>the dog with the cat eats the meat in the park in the park</i>

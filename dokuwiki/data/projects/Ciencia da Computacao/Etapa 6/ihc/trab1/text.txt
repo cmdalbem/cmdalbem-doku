@@ -1,0 +1,1 @@
+A parte 1 é uma análise geral e informal da usabilidade do programa. A parte 2 é uma análise mais objetiva, baseada nos Critérios Ergonômicos de Bastien e Scapin.

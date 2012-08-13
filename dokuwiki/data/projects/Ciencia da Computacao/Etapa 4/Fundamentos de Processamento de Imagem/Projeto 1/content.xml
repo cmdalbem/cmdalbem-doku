@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Projeto 1</name>
+<title>Realce de imagens - Filtros no domínio espacial</title>
+<text><![CDATA[Este projeto consiste na implementação de um programa de computador que aplique filtros de realce estudados em aula para imagens. O programa deve ser capaz de ler e salvar em disco imagens no formato BMP, sem cores, e aplicar operações com máscaras (kernels) relativas a filtros do domínio espacial, ou seja, que trabalham diretamente com os valores dos pixels nas tabelas em memória. São nativas do programa transformações básicas: Gaussiana, Laplace, Derivada Primeira e Média, mas é possível entrar com uma matriz arbitrária de valores a serem operados nas imagens. O programa também permite a soma de imagens, para análise dos filtros de aguçamento de bordas.]]></text>
+<image>fpi_project1.jpg
+</image> 
+<downloads>
+<download>enunciado.pdf
+</download>
+<download>relatorio.pdf
+</download>
+<download>trab.exe</download>
+</downloads>
+</content>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Artístico</name>
+<title>São Paulo 2050
+</title>
+<text><![CDATA[O objetivo era criar uma composição musical de 30 segundos utilizando qualquer tipo de tecnologia computacional, exercitando os conceitos estudados em aula.<br>
+Minha composição foi feita com PureData. É uma orquestra formada por um sintetizador FM de parâmetros aleatórios e 2 osciladores controlados por notas MIDI, um cuja nota é selecionada com técnica probabilí­stica e outro que toca uma sequência de 10 notas geradas aleatoriamente no iní­cio da música.
+]]></text>
+<image>synth.png</image> 
+<downloads>
+<download>CristianoDalbem-SaoPaulo2050.mp3
+</download>
+<download>synth.zip</download>
+</downloads>
+</content>

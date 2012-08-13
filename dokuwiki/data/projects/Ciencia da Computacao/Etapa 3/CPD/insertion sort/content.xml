@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Análise Insertion Sort</name>
+<title></title>
+<text><![CDATA[Implementação e relatório de análise de 4 variações do algoritmo de ordenação por Inserção Direta:
+<ul>
+<li>inserção direta</li>
+<li>inserção direta com busca binária original</li>
+<li>inserção direta com busca binária usando <i>memcpy</i></li>
+<li>inserção direta com busca binária usando <i>memmov</i></li>
+</ul>]]></text>
+<image></image> 
+<downloads>
+<download>enunciado.pdf
+</download>
+<download>relatorio.doc
+</download>
+<download>codigo.cpp</download>
+</downloads>
+</content>

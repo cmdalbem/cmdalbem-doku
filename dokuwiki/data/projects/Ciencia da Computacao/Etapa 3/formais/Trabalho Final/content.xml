@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Final</name>
+<title>Algoritmos de Parsing</title>
+<text><![CDATA[Leitura de gramáticas em FNC e implementação de algoritmos de reconhecimento. É impressa a árvore de derivação se a frase for parseada corretamente.<br>
+Exemplo de frase que pode ser parseada com a gramática incluída no .zip: <i>the dog with the cat eats the meat in the park in the park</i>]]></text>
+<image></image> 
+<downloads>
+<download>enunciado.pdf
+</download>
+<download>parser.zip</download>
+</downloads>
+</content>

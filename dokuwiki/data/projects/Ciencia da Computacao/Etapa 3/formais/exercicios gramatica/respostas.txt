@@ -1,0 +1,15 @@
+x) Se você adicionar estas sentenças em test.items, o que são os números que aparecem ao lado de cada sentença após o Batch Parsing?
+
+O primeiro número suponho ser a quantidade de possíveis árvores de derivação do processo de reconhecimento. Existe a possibilidade de ser um booleano indicando se a entrada foi ou não aceita.
+O segundo número é a quantidade de produções casadas durante o processo.
+
+4) Há 5 opções:
+"Highlight nodes": marca o caminho do nodo selecionado até o ponto "mais alto" (a raiz, no caso do reconhecimento);
+"Feature structure" e "Unfilled feature structure": mostram a estrutura programada na gramática com relação ao item;
+"New chart": mostra uma chart simplificada onde aparece apenas o caminho originado por aquele item, e também outros , caso participem de produções conjuntas com o primeiro;
+"Tree#": mostra a subarvore de derivação a partir do item selecionado.
+
+5) Tarefa bem simples. Achei a sintaxe pouco intuitiva, mas tendo um outro exemplo completamente análogo resolvi sem problemas, simplesmente copiando a estrutura e inserindo na lista.
+
+6) Programando gramáticas em uma sintaxe bem "computacional", como esta, me faz me sentir como se estivesse programando classes em uma linguagem orientada a objetos - creio que haja uma grande relação entre os conceitos (assim como sei que o há entre os métodos de reconhecimento de linguagem estudados e os parsers de compiladores).
+Tive dificuldade com o conceito de PP; inicialmente eu não entendia o que representava isso dentro daquelas estruturas nos arquivos pro LKB.

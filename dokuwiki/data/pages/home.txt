@@ -1,0 +1,47 @@
+<php>
+$translation = &plugin_load('helper','translation');
+if ($translation) echo $translation->showTranslations();
+</php>
+====== Home ======  
+===== About ===== 
+<html>
+<!--
+<block 60:0:rgb(60, 60, 60);rgb(230,230,230)>
+{{:cris.png | }} **Cristiano Medeiros Dalbem**\\
+Porto Alegre, RS. Brazil\\
+\\
+</block>
+-->
+</html>
+**O**n this website you'll find a selection of my best works and projects done during my academic life studying Computer Science at UFRGS (Universidade Federal do Rio Grande do Sul). I've been there since 2008 and I'm still getting surprised every day by how vast, diverse and interesting the world of information technology is.\\
+\\
+**Y**ou can also check my updated [[http://inf.ufrgs.br/~cmdalbem/cv_light.pdf|Curriculum Vitae]] and my [[http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4458685D7|Online Lattes CV]].\\
+\\
+**U**nfortunately, for now, you'll find english translation only for this main page, but if you are curious about any of my projects feel free to contact me in english.\\
+\\
+
+===== Contact =====
+  * **Email:** cmdalbem [at] inf.ufrgs.br
+  * **GTalk:** ninja.dalbem [at] gmail.com
+
+===== Links of friends =====
+  * [[http://www.inf.ufrgs.br/~bjurkovski|Bruno Jurkovski]]
+  * [[http://kaue.me/|Kauê Silveira]]
+  * [[http://www.inf.ufrgs.br/~jcemer|Jean Carlo Emer]]
+  * [[http://www.inf.ufrgs.br/~cgdaudt|César Garcia Daudt]]
+  * [[http://inf.ufrgs.br/~clpmiranda|Caio L. P. Miranda]]
+  * [[http://www.inf.ufrgs.br/~rlflupchinski|Raphael L. f. Lupchinski]]
+\\
+<html> <center>
+<!-- [[http://www.flickr.com/people/helloninja|{{:icons:flickr.png}}]] [[http://www.lastfm.com.br/user/ninja_br|{{:icons:lastfm.gif|}}]] [[http://www.youtube.com/user/ninja1dalbem|{{:icons:youtube.gif}}]] [[http://www.orkut.com.br/Main#Profile?rl=mp&uid=17770512398098248096|{{:icons:orkut.png|}}]] [[http://www.myspace.com/407703095|{{:icons:myspace.gif|}}]] [[http://www.fotolog.com.br/helloninja|{{:icons:fotolog.gif|}}]] [[http://www.skoob.com.br/usuario/36716|{{:icons:skoob.png|}}]] [[http://ilmiosilenzio.deviantart.com/|{{:icons:deviantart.png|}}]] [[http://xred-thunderdragonx.deviantart.com/|{{:icons:deviantart.png|}}]]
+--!>
+</center> </html>
+
+===== Last Updates =====
+{{changes>render=list(signature, summary)&5}}
+
+<HTML>
+<center>
+<img src="http://s10.flagcounter.com/count/ds6/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_12/viewers_3/labels_0/pageviews_1/flags_0/" alt="free counters" border="0" WIDTH="5" HEIGHT="1">
+</center>
+</HTML>

@@ -1,0 +1,212 @@
+_________________________________________________________RESUMO DOS ALGORITMOS__________
+
+Para o determinação de qual operação realizar, faço uma série de subtrações no número em 128 e para cada uma um Jump On Zero. Por exemplo, se a opção foi 1, na primeira subtração ele se tornará zero e haverá um jump para a posição de memória correspondente à Soma. As subtrações são de -1, -2, -4 e -8, a fim de cobrir todas as possibilidades do "menu".
+
+__Soma:
+
+Haverão duas verificações de números negativos, um pra cada operando. Há também uma verificação extra para o número 128, que representa o zero e não pode ser tido como negativo, o que naturalmente aconteceria já que, em sinal magnitude, ele é na realidade o -0.
+Para cada ocasião de negativo, aplica-se uma máscara que isola a parte da magnitude, ignorando-se então os sinais.
+Depois de ser efetuada a soma, há ainda uma verificação a ser feita para o caso do resultado ser negativo; o sendo, o sinal é trocado.
+
+__Subtração:
+
+Haverão aqui também duas verificações de números negativos para cada operando, com a diferença de que no caso do segundo operando o sendo é apenas retirado o sinal.
+No final será testada a necessidade de se calcular o módulo do resultado obtido da subtração (que é uma soma, na realidade).
+
+__Multiplicação:
+
+Não há verificações de operando a fim de se economizar memória: é utilizada a máscara de magnitude para todos os casos (positivos e negativos). Para a multiplicação em si, é feita uma soma do operando com ele mesmo.
+No final também não haverá verificações de resultado, mas por não haver necessidade, já que a forma de representação na saída será em Inteiros Positivos.
+
+__Divisão:
+
+A divisão por dois é efetuada utilizando-se um laço que subtrai 1 do operando n vezes, onde n é o operando em si. Esse laço é percorrido vez sim, vez não, começando-se pelo sim; o controle é feito por uma variável que nomeei "oscilador", pois durante a execução ele oscila entre 0 e -1, indicando necessidade ou não de subtração para aquela "volta" específica.
+A operação que esse algoritmo realiza é a correspondente a subtrair 1 n/2 vezes, ou seja, subtrair 2 n vezes, o que é a forma mais comum de ser ver o algoritmo que utilizamos para dividir um número qualquer por dois nos Inteiros.
+
+
+
+
+
+
+______________________________________________________________PROGRAMA__________________
+				
+
+  0   LDA 128
+  2   ADD 132
+  4   JZ  18		(jump para SOMA)
+  6   ADD 134
+  8   JZ  76		(jump para SUBTRAÇÃO)
+ 10   ADD 133
+ 12   JZ  144		(jump para MULTIPLICAÇÃO POR DOIS)
+ 14   ADD 135
+ 16   JZ  155		(jump para DIVISÃO POR DOIS)
+ 18   LDA 129   --------= SOMA =-
+ 20   STA 138
+ 22   AND 136
+ 24   JZ  37		(se positivo: jump, para manter 1o operando inalterado)
+ 26   LDA 129
+ 28   AND 137
+ 30   JZ  72		(caso especial para dupla representação do zero: 128 não pode ser interpretado como negativo, caso contrário será manipulado erroneamente)
+ 32   ADD 140		
+ 34   NOT
+ 35   STA 138
+ 37   LDA 130
+ 39   STA 139
+ 41   AND 136
+ 43   JZ  54		(se positivo: jump, para manter 2o operando inalterado)
+ 45   LDA 130
+ 47   AND 137
+ 49   ADD 140
+ 51   NOT
+ 52   STA 139
+ 54   LDA 138
+ 56   ADD 139
+ 58   STA 131
+ 60   AND 136		(testa se o resultado é negativo...)
+ 62   JZ  71		(...se não for, dá JUMP para não sofrer troca de sinal)
+ 64   LDA 131
+ 66   ADD 140
+ 68   NOT
+ 69   STA 131
+ 71   HLT
+ 72   STA 138		(processamento de caso especial)
+ 74   JMP 37
+ 76   LDA 129   --------= SUBTRAÇÂO =-
+ 78   STA 138
+ 80   AND 136
+ 82   JZ  93		(se positivo: JUMP93, para manter 1o operando inalterado)
+ 84   LDA 129
+ 86   AND 137
+ 88   NOT
+ 89   ADD 140
+ 91   STA 138
+ 93   LDA 130
+ 95   JN  120		(jump condicional para um 2o operando já negativo...)
+ 97   AND 137
+ 99   NOT
+100   ADD 140
+102   STA 139		(2o operando é armazenado para termos de controle de teste apenas, pois não é necessário ao algoritmo: a operação é realizada em seguida com o número no acumulador, sem estar carregando-o da memória)
+104   ADD 138
+106   STA 131		(resultado é armazenado temporariamente...)
+108   AND 136		(...para então testar-se a necessidade de obter o módulo do resultado...)
+110   JZ  119		(...JUMP 119 caso não haja)
+112   LDA 131
+114   NOT
+115   ADD 140
+117   STA 131
+119   HLT
+120   AND 137		(no caso de um 2o operando já negativo, apenas é isolada a magnitude)
+122   JMP 102
+124    NOP
+125    NOP
+126    NOP
+127    NOP
+
+
+
+*********************************************************************** REGIÃO DE DADOS ***********************************
+
+128    0      		COD. OPERAÇÃO
+129    0      		ENTRADA 1
+130    0      		ENTRADA 2
+131    0      		RESULTADO
+132  255      		(-1 p/menu)
+133  252      		(-4 p/menu)
+134  254        	(-2 p/menu)
+135  248      		(-8 p/menu)
+136  128      		(máscara para chegar se há sinal de negativo. usada com um AND)
+137  127      		(máscara para isolar magnitude. usada com AND)
+138    0      		(alocação temporária para 1o operando)
+139    0      		(alocação temporária para 2o operando)
+140    1      		(+1 para usos gerais)
+141    0       		(oscilador 0/-1)
+142    0      		(posição para variável n)
+143    0      		(para obter o zero poderia se utilizar as memórias do intervalo fechado de 124 a 127, mas decidi por determinar esta região especial a fim de manter certa organização das constantes)
+
+****************************************************************************************************************************
+
+
+144   LDA 129   --------= MULTIPLICAÇÃO POR DOIS =-
+146   AND 137		(máscara magnitude)
+148   STA 138
+150   ADD 138		(soma-se o número com ele mesmo como forma simplificada de realizar uma multiplicação por dois)
+152   STA 131		(armazena-se o resultado sem maiores tratamentos, já que a forma de representação dele será em inteiros positivos)
+154   HLT
+155   LDA 129   --------= DIVISÃO POR DOIS =-  		
+157   AND 137		(máscara magnitude)
+159   STA 142		("salva" variável n, que representa quantas vezes ainda serão repetidas esse laço)
+161   STA 138
+163   LDA 132		
+165   STA 141		(inicializa oscilador com -1)
+167   LDA 141		(carrega oscilador)
+169   JZ  196		(se oscilador por zero, ou seja, se não for a vez de fazer uma subtração, jump para o final da seção de subtração)
+171   LDA 138		(seção de subtração de 1)
+173   ADD 132		(seção de subtração de 1)
+175   STA 138		(seção de subtração de 1 - salva subtração parcial)
+177   LDA 143		(seção de subtração de 1 - atualiza oscilador com 0)
+179   STA 141		(seção de subtração de 1 - atualiza oscilador com 0)
+181   LDA 142		(n - 1)
+183   ADD 132		(n - 1)
+185   STA 142		(n - 1)
+187   JZ  191		(se n for zero, ou seja, se já foram feitas todas subtrações, então pula-se a próxima instrução que...)
+189   JMP 167		(...reinicia laço do algoritmo, desde quando se carrega oscilador pra saber se efetua subtração ou não)
+191   LDA 138
+193   STA 131		(grava resultado final)
+195   HLT
+196   LDA 132
+198   STA 141
+200   JMP 181     
+202   NOP
+203   NOP
+204   NOP
+205   NOP
+206   NOP
+207   NOP
+208   NOP
+209   NOP
+210   NOP
+211   NOP
+212   NOP
+213   NOP
+214   NOP
+215   NOP
+216   NOP
+217   NOP
+218   NOP
+219   NOP
+220   NOP
+221   NOP
+222   NOP
+223   NOP
+224   NOP
+225   NOP
+226   NOP
+227   NOP
+228   NOP
+229   NOP
+230   NOP
+231   NOP
+232   NOP
+233   NOP
+234   NOP
+235   NOP
+236   NOP
+237   NOP
+238   NOP
+239   NOP
+240   NOP
+241   NOP
+242   NOP
+243   NOP
+244   NOP
+245   NOP
+246   NOP
+247   NOP
+248   NOP
+249   NOP
+250   NOP
+251   NOP
+252   NOP
+253   NOP
+254   NOP
+255   NOP

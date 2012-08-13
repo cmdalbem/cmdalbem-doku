@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Projeto de compilador Pico</name>
+<title></title>
+<text><![CDATA[Projeto desenvolvido durante todo curso da disciplina. Consite na implementação completa de um compilador, envolvendo as camadas de analisador lexical (Flex) e parser (Yacc).
+A sintaxe da linguagem é bastante semelhante ao C, e o código final gerado é em TAC (Three Address Code).<br>
+<br>
+<ul>
+<li><a href="http://compilador-pico.googlecode.com">Google Code Repository</a></li>
+</ul>
+]]></text>
+<image>pico.jpg</image> 
+<downloads>
+</downloads>
+</content>

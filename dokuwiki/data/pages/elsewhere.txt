@@ -1,0 +1,11 @@
+====== elsewhere ======
+\\
+<html> <center> </html>
+| [[http://br.linkedin.com/pub/cristiano-medeiros-dalbem/54/42a/a37|{{:icons:linkedin.png|}}]] | [[http://br.linkedin.com/pub/cristiano-medeiros-dalbem/54/42a/a37|Linkedin]] |  professional profile  |
+| [[http://www.facebook.com/cmdalbem|{{:icons:facebook.png|}}]] | [[http://www.facebook.com/cmdalbem|Facebook]] |  social profile  |
+| [[http://twitter.com/cmdalbem|{{:icons:twitter.png|}}]] | [[http://twitter.com/cmdalbem|Twitter]] |  microblogging  |
+| [[http://www.flickr.com/people/helloninja|{{:icons:flickr.png}}]] | [[http://www.flickr.com/people/helloninja|Flickr]] |  photography  |
+| [[http://www.lastfm.com.br/user/ninja_br|{{:icons:lastfm.gif|}}]] | [[http://www.lastfm.com.br/user/ninja_br|Last.fm]] |  what I'm listening to  |
+| [[http://www.skoob.com.br/usuario/36716|{{:icons:skoob.png|}}]] | [[http://www.skoob.com.br/usuario/36716|Skoob]] |  what I'm reading  |
+
+<html> </center> </html>

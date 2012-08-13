@@ -1,0 +1,1 @@
+Implementação em Assembly para o simulador Neander de uma calculadora com 4 operações: soma, subtração, multiplicação por 2 e divisão por 2.

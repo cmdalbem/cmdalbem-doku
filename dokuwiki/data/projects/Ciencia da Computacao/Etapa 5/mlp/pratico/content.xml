@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content>
+<name>Trabalho Prático
+</name>
+<title>Implementação de Jogo de Damas em Python Orientado a Objetos e em Python Funcional
+</title>
+<text><![CDATA[Este foi em que eram propostos projetos de software para que fossem implementados em duas versões, uma Orientada a Objetos e outra e Funcional/Lógico. Como projeto escolhi o jogo de Damas, e como linguagem escolhi Python, aproveitando que ela pode ser usada como O.O. (o mais comum) mas pode ser puramente funcional também.<br>
+<br>
+<ul>
+<li><a href="http://pyladies.googlecode.com" class="urlextern" rel="nofollow">Google Code</a></li>
+</ul>
+]]></text>
+<image>pyladies.png
+</image> 
+<downloads>
+<download>relatorio.pdf
+</download>
+<download>enunciado.pdf</download>
+</downloads>
+</content>
